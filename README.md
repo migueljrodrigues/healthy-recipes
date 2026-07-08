@@ -1,6 +1,8 @@
 # 🥗 Healthy Recipes
 
-A curated collection of 21 healthy recipes — browse, search, and filter by category, diet, nutrition, and more. Built as a static site for GitHub Pages.
+A curated collection of 43 healthy recipes — browse, search, and filter by category, diet, nutrition, and more. Built as a static site for GitHub Pages.
+
+🔗 **Live Demo**: https://migueljrodrigues.github.io/healthy-recipes/
 
 ## Features
 
@@ -12,24 +14,21 @@ A curated collection of 21 healthy recipes — browse, search, and filter by cat
 - **Keyboard shortcuts** — press `/` to focus search, `Esc` to close modals
 - **No build tools** — pure HTML, CSS, and JavaScript
 
+## GitHub Repository
+
+Repository: https://github.com/migueljrodrigues/healthy-recipes
+
 ## Deploy to GitHub Pages
 
-1. Create a new GitHub repository (e.g. `healthy-recipes`)
-2. Push this folder to the repository:
-   ```bash
-   cd healthy-recipes
-   git init
-   git add .
-   git commit -m "Initial commit: healthy recipes web app"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/healthy-recipes.git
-   git push -u origin main
-   ```
-3. Go to **Settings → Pages** in your GitHub repository
-4. Under **Source**, select **Deploy from a branch**
-5. Choose `main` branch and `/ (root)` folder
-6. Click **Save**
-7. Your site will be live at `https://YOUR_USERNAME.github.io/healthy-recipes/`
+This site is already deployed at https://migueljrodrigues.github.io/healthy-recipes/
+
+To deploy your own fork:
+1. Fork this repository
+2. Go to **Settings → Pages** in your GitHub repository
+3. Under **Source**, select **Deploy from a branch**
+4. Choose `main` branch and `/ (root)` folder
+5. Click **Save**
+6. Your site will be live at `https://YOUR_USERNAME.github.io/healthy-recipes/`
 
 ## Run Locally
 
@@ -53,33 +52,31 @@ healthy-recipes/
 ├── css/
 │   └── styles.css      # All styles
 ├── js/
-│   ├── recipes.js      # Recipe data (21 recipes)
-│   └── app.js          # Search, filter, sort & modal logic
+│   ├── recipes_clean.json  # Recipe data (43 recipes in English & Portuguese)
+│   ├── recipes.js          # Legacy recipe data
+│   └── app.js              # Search, filter, sort & modal logic
 └── README.md
 ```
 
-## Recipes Included
+## Recipe Collection
 
-| # | Recipe | Tags |
-|---|--------|------|
-| 1 | Brownie de Maçã (Apple Brownie) | dessert, gluten-free, sugar-free |
-| 2 | Massa de Brócolos (Broccoli Pasta) | main-course, high-protein, vegetarian |
-| 3 | Egg Cloud Sandwich | lunch, high-protein, low-carb |
-| 4 | Marshmallows Saudáveis | dessert, snack, kids, easy |
-| 5 | Tempero de Alho e Cebola | condiment, seasoning, zero-waste |
-| 6 | Marshmallow de Maçã | dessert, snack, sugar-free |
-| 7 | Chocolate Yogurt Cheesecake | dessert, high-protein, chocolate |
-| 8 | Maionese Caseira | condiment, sauce, easy |
-| 9 | Raspberry Cheesecake Bites | dessert, snack, weight-loss |
-| 10 | Raspberry Yogurt Bark | dessert, low-calorie, frozen |
-| 11 | Zero Carb Buffalo Ranch Pizza | main-course, high-protein, keto |
-| 12 | Maionese de Ovos Cozidos | condiment, high-protein, low-carb |
-| 13 | Bananinha | dessert, snack, brazilian |
-| 14 | Chocolate de Banana Saudável | dessert, chocolate, easy |
-| 15 | Cloud Cream Cheese Greek Yoghurt | breakfast, high-protein, overnight |
-| 16 | Cabbage Hamburger | main-course, low-carb, burger |
-| 17 | Chocolate Pudding | dessert, high-protein, chocolate |
-| 18 | Chocolate Protein Fluff | dessert, high-protein, low-calorie |
-| 19 | Cabbage Lasagna | main-course, high-protein, low-carb |
-| 20 | Vegan Chocolate Flan | dessert, vegan, gluten-free |
-| 21 | 3-Ingredient Protein Cookies | dessert, high-protein, sugar-free |
+**43 recipes** including:
+- High-protein dishes (chicken crust pizza, protein mozzarella sticks, etc.)
+- Low-carb & keto options (zucchini wraps, cabbage lasagna, etc.)
+- Healthy desserts (protein cookies, cottage cheese cookie dough, frozen grape ice cream, etc.)
+- Main courses (burger bombs, meatball lasagna, broccoli pasta, etc.)
+- Snacks & appetizers
+- Condiments & sauces
+
+All recipes are available in both **English** and **Portuguese**.
+
+## Recipe Categories
+
+- 🍽️ Main Courses
+- 🍰 Desserts & Sweets
+- 🥤 Snacks & Appetizers
+- 🧂 Condiments & Sauces
+- 💪 High-Protein Options
+- 🥬 Low-Carb & Keto
+- 🌱 Vegan & Vegetarian
+- 🚫 Gluten-Free & Sugar-Free
