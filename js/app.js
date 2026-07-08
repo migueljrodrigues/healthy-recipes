@@ -35,7 +35,6 @@
       ingredients: '📋 Ingredients',
       instructions: '👨‍🍳 Instructions',
       viewSource: '🔗 View original source',
-      footer: 'Made with ❤️ — Healthy Recipes Collection',
     },
     pt: {
       siteTitle: '🥗 Receitas Saudáveis',
@@ -69,7 +68,6 @@
       ingredients: '📋 Ingredientes',
       instructions: '👨‍🍳 Preparação',
       viewSource: '🔗 Ver receita original',
-      footer: 'Feito com ❤️ — Coleção de Receitas Saudáveis',
     }
   };
 
@@ -773,10 +771,6 @@
 
     // Reset button
     resetBtn.textContent = t('resetAll');
-
-    // Footer
-    const footerP = document.querySelector('footer p');
-    if (footerP) footerP.innerHTML = t('footer');
 
     // Language toggle active state
     document.querySelectorAll('.lang-btn').forEach(btn => {
